@@ -1,0 +1,26 @@
+body #textArea {
+	width: 500px;
+	height: 300px;
+}
+input[type="input"] {
+	width: 60px;
+}
+#shapes {
+	display: inline-block;
+	
+}
+#displayShapes {
+	width: 500px;
+}
+#buttons {
+	display: inline-block;
+}
+#up {
+	display: block;
+}
+#down {
+	display: block;
+}
+#removeButton {
+	display: block;;
+}

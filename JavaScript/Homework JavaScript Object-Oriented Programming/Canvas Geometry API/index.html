@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Geometry</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src='shapes.js'></script>
+</head>
+<body>
+	<section>
+		<article>
+			<label for="postionX">X: </label>
+			<input id="positionX" type="input">
+			<label for="postionY">Y: </label>
+			<input id="positionY" type="input">
+			<label for="color">Color: </label>
+			<input id="color" type="color">
+			<div>
+				<label for="shapeType">Shape</label>
+				<select id="shapeType">
+					<option value="0" selected="selected">Triangle</option>
+					<option value="1">Rectangle</option>
+					<option value="2">Circle</option>
+					<option value="3">Segment</option>
+					<option value="4">Point</option>
+				</select>
+			</div>
+			<div id="selectedShape">
+				<div>
+					<label for="postionX1">X1: </label>
+					<input id="positionX1" type="input">
+					<label for="postionY1">Y1: </label>
+					<input id="positionY1" type="input">
+				</div>
+				<div>
+					<label for="postionX2">X2: </label>
+					<input id="positionX2" type="input">
+					<label for="postionY2">Y2: </label>
+					<input id="positionY2" type="input">
+				</div>
+			</div>
+		</article>
+	</section>
+	<div>
+	<div id="shapes">
+		<select id="displayShapes"></select> 
+		
+	</div>
+	
+	<div id="buttons">
+                <button id="up" type="button">&uArr;</button>
+                <button id="down" type="button">&dArr;</button>
+                <button id="removeButton" type="button">-</button>
+    </div>
+    <div>
+     <button id="addButton" type="button">ADD</button>
+	<section>
+        <canvas id="canvas" width="400px" height="450px"></canvas>
+    </section>
+     
+	<script type="text/javascript" src="geometry.js"></script>
+</body>
+</html>
